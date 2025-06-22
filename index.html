@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Watchlist App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Movie Watchlist App</h1>
+            <img src="https://img.freepik.com/free-vector/movie-clapperboard_23-2147502503.jpg?semt=ais_hybrid&w=740">
+            <div class="choose">
+                <label for="input-box">Name</label>
+                <input type="text" id="input-box" placeholder="Назва фільму?">
+                <label for="genre">Genre</label>
+                <select id="genre">
+                    <option value="choose_genre">Choose genre</option>
+                    <option value="horror">Horror</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="romance">Romantic</option>
+                    <option value="docum">Documental</option>
+                    <option value="drama">Drama</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="adven">Adventure</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="action">Action</option>
+                    <option value="crime">Crime</option>
+                </select>
+                <button id="add-button">Add</button>
+            </div>
+            <ul id="list-container">
+                <!--<li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>-->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
