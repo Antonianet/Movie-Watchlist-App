@@ -19,6 +19,7 @@ h1 {
     padding-bottom: 25px;
 }
 .container {
+    background-color: #FFDEAD;
     width: 100%;
     max-width: 450px;
     margin: auto;
@@ -53,6 +54,7 @@ select {
     border-bottom-right-radius: 20%;
     border-color: #FFC0CB;
 }
+
 
 
 
