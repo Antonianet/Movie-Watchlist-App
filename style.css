@@ -19,7 +19,6 @@ h1 {
     padding-bottom: 25px;
 }
 .container {
-    background: linear-gradient(#C71585, #FFE4E1);
     width: 100%;
     max-width: 450px;
     margin: auto;
@@ -54,5 +53,6 @@ select {
     border-bottom-right-radius: 20%;
     border-color: #FFC0CB;
 }
+
 
 
